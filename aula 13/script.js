@@ -1,3 +1,4 @@
+/*
 pizza = 0
 
 while (pizza != 8){
@@ -9,6 +10,15 @@ while (pizza != 8){
     else{
         console.log("Comi outra fatia da pizza!")  
     }
-    pizza += 1
+    pizza++
 }
 console.log(`Acabou a pizza, eu comi ${pizza} pedaços` )
+*/
+
+cont = 1 
+
+do{
+    console.log(`Passo ${cont}`)
+    
+}while(cont <= 15)
+
