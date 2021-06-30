@@ -19,6 +19,7 @@ cont = 1
 
 do{
     console.log(`Passo ${cont}`)
-    
+    cont+1
 }while(cont <= 15)
+
 
