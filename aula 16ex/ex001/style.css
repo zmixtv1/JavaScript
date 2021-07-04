@@ -19,3 +19,8 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+select#valores{
+    margin-top: 15px;
+    width: 150px;
+}
