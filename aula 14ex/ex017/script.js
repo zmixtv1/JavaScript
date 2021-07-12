@@ -13,7 +13,6 @@ function tabuada(){
             item.value = `tav${c}`
             tab.appendChild(item)
             c++
-            
         }
     }
     

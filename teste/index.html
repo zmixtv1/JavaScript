@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Media Aritmetica</title>
+</head>
+<body class="gradient">
+    <header>
+        <h1>Média Aritmética</h1>
+    </header>
+    <section>
+        <div>
+            Digite valores inteiros: <input type="number" name="num" id="num"> <input type="button" value="Adicionar Número" onclick="adicionar()">
+        </div>
+        <div>
+            <select name="mostrar" id="mostrar" size="10">
+                <option>Digite um número acima!</option>
+            </select>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div id="res">
+            calculando...
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

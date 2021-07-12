@@ -1,7 +1,7 @@
 let num = document.getElementById("num")
 let Lista = document.getElementById("valores")
 let res = document.getElementById("res")
-let valores = []
+let   = []
 
 function isNumber(n){
     if (Number(n) >=1 && Number(n) <= 100){
